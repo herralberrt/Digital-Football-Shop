@@ -1,7 +1,6 @@
 # 🛒 Albert's Football Shop
 
-This is a responsive shopping cart web application themed around football apparel, developed as part of the "Shopping Cart 2025" assignment for the II (Infrastructura Informației) course.
-
+This is a responsive shopping cart web application themed around football.
 It allows users to browse football jerseys and boots, add items to the cart, modify quantities, and place an order. The app uses Flask, HTML/CSS with Bootstrap, JavaScript, and is containerized with Docker.
 
 ---
