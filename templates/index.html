@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Home - Football Shop{% endblock %}
+{% block content %}
+<div class="text-center text-muted my-3">
+  Discover the most popular football gear — top-quality jerseys and boots!
+</div>
+<h2 class="text-center section-title">
+  <i class="bi bi-shirt"></i> Jerseys
+</h2>
+<div class="row">
+  {% for product in products[:4] %}
+  <div class="col-md-3 mb-4">
+    <div class="card h-100">
+      <img src="{{ url_for('static', filename='images/' + product.image) }}" class="card-img-top" alt="{{ product.name }}">
+      <div class="card-body text-center">
+        <h5 class="card-title">{{ product.name }}</h5>
+        <p class="card-text">{{ product.description }}</p>
+        <p class="fw-bold">{{ product.price }} EUR</p>
+        <button type="button" class="btn btn-primary add-to-cart-btn" data-product="{{ product.name }}">Add to cart</button>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<hr class="my-5" style="opacity: 0.15;">
+<h2 class="text-center mt-5 mb-4"><i class="bi bi-shoe-print"></i> Boots</h2>
+<div class="row">
+  {% for product in products[4:] %}
+  <div class="col-md-3 mb-4">
+    <div class="card h-100">
+      <img src="{{ url_for('static', filename='images/' + product.image) }}" class="card-img-top" alt="{{ product.name }}">
+      <div class="card-body text-center">
+        <h5 class="card-title">{{ product.name }}</h5>
+        <p class="card-text">{{ product.description }}</p>
+        <p class="fw-bold">{{ product.price }} EUR</p>
+        <button type="button" class="btn btn-primary add-to-cart-btn" data-product="{{ product.name }}">Add to cart</button>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

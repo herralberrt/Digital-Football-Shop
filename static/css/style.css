@@ -1,0 +1,120 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+    color: #212529;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 38px;
+    z-index: 1030;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 12px 12px 0 0;
+    max-height: 250px;
+    object-fit: contain;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 0.95rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.text-muted {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.topbar {
+    background-color: #343a40;
+    color: #fff;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1031;
+}
+
+footer {
+    font-size: 0.9rem;
+    background-color: #f8f9fa;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    transition: all 0.2s ease-in-out;
+}
+
+.section-title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.toast-message {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    background-color: #28a745; /* verde = success */
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    animation: fadeOut 3s forwards;
+    font-weight: 500;
+    max-width: 300px;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; transform: translateY(-10px); }
+}
+

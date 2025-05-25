@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Romaniuc Albert-Iulian",
+    "email": "albertiulianromaniuc@gmail.com",
+    "address": "Iuliu Maniu",
+    "items": {
+      "Tricou Real Madrid": {
+        "image": "realmadrid-shirt.png",
+        "price": 239,
+        "quantity": 1
+      },
+      "Tricou Roma": {
+        "image": "asroma-shirt.jpg",
+        "price": 229,
+        "quantity": 1
+      }
+    },
+    "total": 468
+  },
+  {
+    "name": "Romaniuc Albert-Iulian",
+    "email": "dasdasda@gmail.com",
+    "address": "asdasdas",
+    "items": {
+      "PSG Jersey": {
+        "image": "psg-shirt.jpg",
+        "price": 60,
+        "quantity": 1
+      },
+      "Roma Jersey": {
+        "image": "asroma-shirt.jpg",
+        "price": 40,
+        "quantity": 5
+      },
+      "USA Jersey": {
+        "image": "usa-shirt.jpg",
+        "price": 50,
+        "quantity": 7
+      }
+    },
+    "total": 610
+  },
+  {
+    "name": "dsdsdasd",
+    "email": "albertiulianromaniuc@gmail.com",
+    "address": "sdasdasda",
+    "items": {
+      "Barcelona Jersey": {
+        "image": "barcelona-shirt.png",
+        "price": 70,
+        "quantity": 1
+      }
+    },
+    "total": 70
+  },
+  {
+    "name": "asdaklsldka",
+    "email": "albert.romaniuc@stud.acs.upb.ro",
+    "address": "dsdaklsjda\r\n",
+    "items": {
+      "Barcelona Jersey": {
+        "image": "barcelona-shirt.png",
+        "price": 70,
+        "quantity": 3
+      },
+      "Nike Mercurial": {
+        "image": "nike-mercurial.jpg",
+        "price": 130,
+        "quantity": 1
+      },
+      "Nike Phantom": {
+        "image": "nike-phantom.jpg",
+        "price": 150,
+        "quantity": 1
+      },
+      "PSG Jersey": {
+        "image": "psg-shirt.jpg",
+        "price": 60,
+        "quantity": 1
+      },
+      "Roma Jersey": {
+        "image": "asroma-shirt.jpg",
+        "price": 40,
+        "quantity": 1
+      }
+    },
+    "total": 590
+  },
+  {
+    "name": ",jjkjkjl",
+    "email": "albert.romaniuc@stud.acs.upb.ro",
+    "address": "kljkljlj",
+    "items": {
+      "Barcelona Jersey": {
+        "image": "barcelona-shirt.png",
+        "price": 70,
+        "quantity": 1
+      },
+      "PSG Jersey": {
+        "image": "psg-shirt.jpg",
+        "price": 60,
+        "quantity": 1
+      },
+      "Roma Jersey": {
+        "image": "asroma-shirt.jpg",
+        "price": 40,
+        "quantity": 1
+      }
+    },
+    "total": 170
+  },
+  {
+    "name": "test",
+    "email": "test123@gmail.com",
+    "address": "testingaddress\r\n",
+    "items": {
+      "Nike Superfly": {
+        "image": "nike-superfly.jpg",
+        "price": 120,
+        "quantity": 3
+      }
+    },
+    "total": 360
+  },
+  {
+    "name": "dasdasdasda",
+    "email": "salut@gmail.com",
+    "address": "dasdasdasd",
+    "items": {
+      "Barcelona Jersey": {
+        "image": "barcelona-shirt.png",
+        "price": 70,
+        "quantity": 4
+      },
+      "Nike Tiempo": {
+        "image": "nike-tiempo.jpg",
+        "price": 100,
+        "quantity": 1
+      },
+      "Roma Jersey": {
+        "image": "asroma-shirt.jpg",
+        "price": 40,
+        "quantity": 2
+      },
+      "USA Jersey": {
+        "image": "usa-shirt.jpg",
+        "price": 50,
+        "quantity": 1
+      }
+    },
+    "total": 510
+  }
+]
